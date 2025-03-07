@@ -1,0 +1,6 @@
+print("WELCOME TO THE REGIME OF BORLEY")
+print("Please answer the following questions")
+print("")
+
+adjective1 = input("Enter an adjective that starts with c and ends in ing")
+question1 = input("What ")
