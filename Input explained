@@ -1,0 +1,18 @@
+#Input explained
+#Python has many "built in" functions
+#Here is a list:
+#https://docs.python.org/3/library/functions.html
+
+#Here is a variable
+name = "Bob"
+
+#However not everone is not called Bob
+#Here is how to allow a user to input there name
+name = str(input("Enter your name: "))
+print("nice to meet you,", name)
+
+age = int(input("Enter your age: "))
+print("wow your at an old age ", age)
+
+adress = str(input("Enter your adress: "))
+print("nice house on,", adress)
