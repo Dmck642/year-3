@@ -1,0 +1,11 @@
+print("Welcome to the club")
+print("You must be over 18 and be a member or be invited")
+print("Or be on the vip list")
+age = int(input("What is your age?"))
+member = str(input("Do you have a membership? y/n"))
+invitation = str(input("Do you have an invitation? y/n"))
+
+if age >= 18 and (member == "y" and invitation == "y"):
+  print("You are welcome")
+else:
+  print("Sorry you can not enter")
