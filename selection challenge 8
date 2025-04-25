@@ -1,0 +1,7 @@
+print("Press 1 if you would like to be Player 1")
+print("Press 2 if you would like to be Player 2")
+player = int(input("Press 1 or 2"))
+if player == 1:
+  print("You are player 1")
+else:
+  print("You are player 2")
