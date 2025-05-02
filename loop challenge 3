@@ -1,0 +1,4 @@
+name = str(input("Input your name>>>"))
+NumberOfTimes = int(input("Input how many times you want your name to show"))
+for i in range(NumberOfTimes):
+  print(name)
