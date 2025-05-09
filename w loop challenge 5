@@ -1,0 +1,4 @@
+username = "HEY"
+while not username == "sigmaboi":
+    username = str(input("Enter username: ")).lower()
+print("Welcome to the game")
